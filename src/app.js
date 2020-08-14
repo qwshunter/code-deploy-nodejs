@@ -4,12 +4,12 @@ const app = express()
 
 app.get('/', async (req, res) => {
 	console.log("FInal healthCheck ===> ");
-   res.send('Hello World from shooter piranha ')
+   res.send('Welcome to piranha Env...')
 })
 
 app.get('/healthCheck', async (req, res) => {
 	console.log("FInal healthCheck ===> ");
-   res.send('Hello World from viren piranha healthCheck ')
+   res.send('Welcome to piranha Env healthCheck... ')
 })
 
 const port = 8999;
