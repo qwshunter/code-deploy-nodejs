@@ -1,3 +1,3 @@
 #!/bin/sh
-sudo yum install -y httpd
-
+sudo yum install -y httpd.
+sudo npm install
