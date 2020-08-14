@@ -4,6 +4,8 @@ files:
   - source: /src
     destination: /home/ec2-user/integration
   - source: /src
+    destination: /var/www/html
+  - source: /src
     destination: /opt/codedeploy-agent
 hooks:
   BeforeInstall:
