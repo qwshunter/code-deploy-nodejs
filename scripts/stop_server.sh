@@ -1,6 +1,4 @@
 #!/bin/sh
-isExistApp = `pgrep httpd`
-if [[ -n  $isExistApp ]]; then
-    sudo service httpd stop        
-fi
+pm2 stop app.js
+echo "Server Stopped..."
 
