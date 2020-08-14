@@ -1,3 +1,2 @@
 #!/bin/sh
-sudo npm install
 node app.js
