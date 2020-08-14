@@ -1,11 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /src
+  - source: /
     destination: /home/ec2-user/integration
-  - source: /src
+  - source: /
     destination: /var/www/html
-  - source: /src
+  - source: /
     destination: /opt/codedeploy-agent
 hooks:
   BeforeInstall:
