@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', async (req, res) => {
 	console.log("FInal healthCheck ===> ");
-   res.send('Hello World from viren piranha ')
+   res.send('Hello World from shooter piranha ')
 })
 
 app.get('/healthCheck', async (req, res) => {
