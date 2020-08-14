@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /src
-    destination: /home/ec2-user/integration
+    destination: /opt/codedeploy-agent
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
