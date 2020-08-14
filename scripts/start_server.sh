@@ -1,2 +1,2 @@
 #!/bin/sh
-node app.js
+echo "Server started..."
