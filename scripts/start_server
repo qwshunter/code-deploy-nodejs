@@ -1,2 +1,4 @@
 #!/bin/sh
+sudo npm install
+node app.js
 sudo service httpd start
