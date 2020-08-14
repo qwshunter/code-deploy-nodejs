@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /app.js
-    destination: /var/www/html
+  - source: /src/*
+    destination: /home/ec2-user/integration
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
